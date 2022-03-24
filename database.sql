@@ -20,3 +20,5 @@ insert into category (name) values ('Hiiret');
 insert into category (name) values ('Näppäimistöt');
 
 insert into category (name) values ('Kuulokkeet');
+
+insert into category (name) values ('Hiirimatot');
