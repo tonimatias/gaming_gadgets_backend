@@ -27,5 +27,5 @@ insert into category (name) values ('Näppäimistöt');
 insert into category (name) values ('Kuulokkeet');
 
 insert into category (name) values ('Hiirimatot');
-insert into product (name, price, category_id) values ('Hiirimatto2', 120,1);
-insert into product (name, price, category_id) values ('Hiirimatto3', 99,1);
+insert into product (name, price, category_id) values ('Hiirimatto2', 120,4);
+insert into product (name, price, category_id) values ('Hiirimatto3', 99,4);
