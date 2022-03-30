@@ -13,8 +13,9 @@ try {
     $category = $query->fetch(PDO::FETCH_ASSOC);
 
     $sql = "select * from product where category_id = $category_id";
-    $guery = $db->query($sql);
+    $query = $db->query($sql);
     $products = $query->fetchAll(PDO::FETCH_ASSOC);
+    
 
     header('HTTP/1.1 200 OK');
     echo json_encode(array(
