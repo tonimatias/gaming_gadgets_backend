@@ -19,7 +19,7 @@ try {
     header('HTTP/1.1 200 OK');
     echo json_encode(array(
      "category" => $category['name'],
-     "products" => $products  
+     "products" => $products
     ));
 
 } catch (PDOException $pdoex) {
