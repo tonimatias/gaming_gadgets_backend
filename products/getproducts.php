@@ -2,7 +2,7 @@
 require_once '../inc/functions.php';
 require_once '../inc/headers.php';
 
-$url = parse_url(filter_input(INPUT_SERVER, 'PATH_INFO'), PHP_URL_PATH);
+$url = parse_url(filter_input(INPUT_SERVER,'PATH_INFO'),PHP_URL_PATH);
 $parameters = explode('/', $url);
 $category_id = $parameters[1];
 
