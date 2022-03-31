@@ -31,7 +31,8 @@ insert into category (name) values ('Hiirimatot');
 insert into product (name, price, description, category_id) values ('Logitech MX518', 29.90, '16 000 DPI. Klassinen muotoilu kahdeksalla ohjelmoitavalla painikkeella', 1);
 insert into product (name, price, description, category_id) values ('Steelseries Rival 3', 39.90, 'Sopii oikeakätisille pelaajille. 16,8 miljoonan värin RGB valaistus. 60 miljoonan klikkauksen kytkimet', 1);
 insert into product (name, price, description, category_id) values ('Logitech G Pro Wireless', 119.90, 'Kevyt ja kestävä pelihiiri. 16 000 DPI. Langaton LIGHTSPEED',1);
-insert into product (name, price, description, category_id) values ('Logitech G305', 54.90, '12 000 DPI. Langaton LIGHTSPEED pelihiiri. Erittäin kevyt.');
+insert into product (name, price, description, category_id) values ('Logitech G305', 54.90, '12 000 DPI. Langaton LIGHTSPEED pelihiiri. Erittäin kevyt.',1);
+insert into product (name, price, description, category_id) values ('Razer Basilisk Ultimate + lataustelakka', 189.90, 'Pitkä akunkesto, mukana lataustelakka. Jopa 20 000 DPI! Razer HyperSpeed -langaton teknologia',1);
 
 
 
