@@ -54,6 +54,10 @@ insert into product (name, price, description, category_id) values('Logitech G P
 insert into product (name, price, description, category_id) values ('Sony Pulse 3D', 89.90, 'Langattomat pelikuulokkeet. Yhteensopivuus: PS5, PS4 ja PC.', 3);
 insert into product (name, price, description, category_id) values ('Corsair HS70 PRO Wireless', 109.90, 'PS4 / PC. Virtuaalinen 7.1 ääni PC:llä. 16 tunnin akunkesto.', 3);
 
-insert into product (name, price, description, category_id) values ();
-insert into product (name, price, image,  category_id) values ('Hiirimatto2',120, "images/hiiri.jpg",4);
-insert into product (name, price, category_id) values ('Hiirimatto3', 99,4);
+
+insert into product (name, price, description, category_id) values ('Gembird Gaming Mouse Pad S', 7.99, 'Koko: 200 x 250 x 3 mm. Liukumaton kumipohja.', 4);
+insert into product (name, price, description, category_id) values ('Asus ROG Sheath', 39.99, 'Koko: 900 x 440 x 3 mm. Optimoitu hiiren sulavaan liukumiseen', 4);
+insert into product (name, price, description, category_id) values ('Gembird Gaming Mouse Pad M', 8.99, 'Koko: 250 x 350 x 3 mm. Liukumaton kumipohja.', 4);
+insert into product (name, price, description, category_id) values ('Steelseries QcK', 23.99, 'Koko: 320 x 270 x 2 mm. Pehmeyttä ja tasaisuutta pelaamiseen. Vaativalle pelaajalle.', 4);
+insert into product (name, price, description, category_id) values ('Corsair MM100 Medium', 17.99, 'Koko: 320 x 270 x 3 mm. Kumipohja, kangaspinnoite.', 4);
+insert into product (name, price, description, category_id) values ('Razer Sphex V3 Hard Gaming Mouse Mat', 12.99, 'Koko: 270 x 215 x 0,4 mm. Kaikille herkkyyksille ja sensoreille. Erittäin ohut.', 4);
