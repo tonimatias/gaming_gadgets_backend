@@ -31,11 +31,11 @@ insert into category (name) values ('Hiirimatot');
 
 
 insert into product (name, price, description, category_id, image) values ('Logitech MX518', 29.90, '16 000 DPI. Klassinen muotoilu kahdeksalla ohjelmoitavalla painikkeella', 1, 'logitech_mx518.jpeg');
-insert into product (name, price, description, category_id) values ('Steelseries Rival 3', 39.90, 'Sopii oikeakätisille pelaajille. 16,8 miljoonan värin RGB valaistus. 60 miljoonan klikkauksen kytkimet', 1);
-insert into product (name, price, description, category_id) values ('Logitech G Pro Wireless', 119.90, 'Kevyt ja kestävä pelihiiri. 16 000 DPI. Langaton LIGHTSPEED',1);
-insert into product (name, price, description, category_id) values ('Logitech G305', 54.90, '12 000 DPI. Langaton LIGHTSPEED pelihiiri. Erittäin kevyt.',1);
-insert into product (name, price, description, category_id) values ('Razer Basilisk Ultimate + lataustelakka', 189.90, 'Pitkä akunkesto, mukana lataustelakka. Jopa 20 000 DPI! Razer HyperSpeed -langaton teknologia',1);
-insert into product (name, price, description, category_id) values ('Hyper X Pulsefire', 59.90, 'RGB efektit. Suurikokoiset rullat. Yksitoista painiketta, Omron-kytkimet', 1);
+insert into product (name, price, description, category_id, image) values ('Steelseries Rival 3', 39.90, 'Sopii oikeakätisille pelaajille. 16,8 miljoonan värin RGB valaistus. 60 miljoonan klikkauksen kytkimet', 1, 'steelseries_rival3.jpeg');
+insert into product (name, price, description, category_id, image) values ('Logitech G Pro Wireless', 119.90, 'Kevyt ja kestävä pelihiiri. 16 000 DPI. Langaton LIGHTSPEED',1, 'logitech_g_pro.jpeg');
+insert into product (name, price, description, category_id, image) values ('Logitech G305', 54.90, '12 000 DPI. Langaton LIGHTSPEED pelihiiri. Erittäin kevyt.',1, 'logitech_g305.jpeg');
+insert into product (name, price, description, category_id, image) values ('Razer Basilisk Ultimate + lataustelakka', 189.90, 'Pitkä akunkesto, mukana lataustelakka. Jopa 20 000 DPI! Razer HyperSpeed -langaton teknologia',1, 'razer_basilisk_ultimate.jpeg');
+insert into product (name, price, description, category_id, image) values ('Hyper X Pulsefire', 59.90, 'RGB efektit. Suurikokoiset rullat. Yksitoista painiketta, Omron-kytkimet', 1, 'hyperx_pulsefire.jpeg');
 
 
 insert into product (name, price, description, category_id) values ('Corsair K63 Compacr', 89.90, 'Cherry MX -kytkimet. Suunniteltu tehopelaamiseen. Lisää tilaa ilman numeronäppäimistöä.', 2);
