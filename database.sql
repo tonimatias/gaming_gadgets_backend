@@ -38,12 +38,12 @@ insert into product (name, price, description, category_id, image) values ('Raze
 insert into product (name, price, description, category_id, image) values ('Hyper X Pulsefire', 59.90, 'RGB efektit. Suurikokoiset rullat. Yksitoista painiketta, Omron-kytkimet', 1, 'hyperx_pulsefire.jpeg');
 
 
-insert into product (name, price, description, category_id) values ('Corsair K63 Compacr', 89.90, 'Cherry MX -kytkimet. Suunniteltu tehopelaamiseen. Lisää tilaa ilman numeronäppäimistöä.', 2);
-insert into product (name, price, description, category_id) values ('Blackstorm RGB Mech 2021 musta', 59.90, 'Bluetooth sekä USB yhteys. Yksilöllisesti ohjelmoitava valaistus.', 2);
-insert into product (name, price, description, category_id) values ('Blackstorm RGB Mech 2021 pinkki', 59.90, 'Bluetooth sekä USB yhteys. Yksilöllisesti ohjelmoitava valaistus.', 2 );
-insert into product (name, price, description, category_id) values ('Hyper X Alloy Origins 60', 119.90, 'Mekaaniset Hyper X Red -kytkimet. Harjattu alumiinirunko. 60 % näppäinasettelu.', 2);
-insert into product (name, price, description, category_id) values ('Blackstorm RGB 2022 Pudding 60% Dual Mode', 69.90, 'Bluetooth 5.0 sekä USB-yhteys. 80 miljoonan painalluksen elinkaari. Pudding Keycaps', 2);
-insert into product (name, price, description, category_id) values ('Corsair K95 Platinum', 179.90, 'Cherry Mx Brown -kytkimet. 8 Mt muisti. Anodisoitu, harjattu alumiinipinta', 2);
+insert into product (name, price, description, category_id, image) values ('Corsair K63 Compacr', 89.90, 'Cherry MX -kytkimet. Suunniteltu tehopelaamiseen. Lisää tilaa ilman numeronäppäimistöä.', 2, 'corsair_k63.jpeg');
+insert into product (name, price, description, category_id, image) values ('Blackstorm RGB Mech 2021 musta', 59.90, 'Bluetooth sekä USB yhteys. Yksilöllisesti ohjelmoitava valaistus.', 2, 'blackstorm_rgb_black.jpeg');
+insert into product (name, price, description, category_id, image) values ('Blackstorm RGB Mech 2021 pinkki', 59.90, 'Bluetooth sekä USB yhteys. Yksilöllisesti ohjelmoitava valaistus.', 2, 'blackstorm_rgb_pink.jpeg' );
+insert into product (name, price, description, category_id, image) values ('Hyper X Alloy Origins 60', 119.90, 'Mekaaniset Hyper X Red -kytkimet. Harjattu alumiinirunko. 60 % näppäinasettelu.', 2, 'hyperx_alloy_origins.jpeg');
+insert into product (name, price, description, category_id, image) values ('Blackstorm RGB 2022 Pudding 60% Dual Mode', 69.90, 'Bluetooth 5.0 sekä USB-yhteys. 80 miljoonan painalluksen elinkaari. Pudding Keycaps', 2, 'blackstorm_rgb_pudding.jpeg');
+insert into product (name, price, description, category_id, image) values ('Corsair K95 Platinum', 179.90, 'Cherry Mx Brown -kytkimet. 8 Mt muisti. Anodisoitu, harjattu alumiinipinta', 2, 'corsair_k95.jpeg');
 
 
 
