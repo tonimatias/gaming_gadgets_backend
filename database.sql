@@ -47,17 +47,17 @@ insert into product (name, price, description, category_id, image) values ('Cors
 
 
 
-insert into product (name, price, description, category_id) values ('HyperX Cloud 2 Wireless Headset', 169.90, 'Langaton. Taajuusvaste 15 - 25 000 Hz. Suljettu rakenne vähentää taustamelua. Surrounding Sound 7.1 (PC/Mac)', 3);
-insert into product (name, price, description, category_id) values ('HyperX Cloud 2 Headset', 74.90, 'Langallinen. Taajuusvaste 15 - 25 000 Hz. Suljettu rakenne vähentää taustamelua. Surrounding Sound 7.1 (PC/Mac)', 3);
-insert into product (name, price, description, category_id) values ('EPOS Sennheiser PC 5 Chat', 19.90, '3.5 liitäntä. Melua vaimentava mikrofoni.', 3);
-insert into product (name, price, description, category_id) values('Logitech G Pro X', 119.90, '50 mm PRO-G-kaiutinelementit. Ammattitason mikrofoni. Erityisesti PC-käyttöön.',3);
-insert into product (name, price, description, category_id) values ('Sony Pulse 3D', 89.90, 'Langattomat pelikuulokkeet. Yhteensopivuus: PS5, PS4 ja PC.', 3);
-insert into product (name, price, description, category_id) values ('Corsair HS70 PRO Wireless', 109.90, 'PS4 / PC. Virtuaalinen 7.1 ääni PC:llä. 16 tunnin akunkesto.', 3);
+insert into product (name, price, description, category_id, image) values ('HyperX Cloud 2 Wireless Headset', 169.90, 'Langaton. Taajuusvaste 15 - 25 000 Hz. Suljettu rakenne vähentää taustamelua. Surrounding Sound 7.1 (PC/Mac)', 3, 'hyperx_cloud2_wireless.jpeg');
+insert into product (name, price, description, category_id, image) values ('HyperX Cloud 2 Headset', 74.90, 'Langallinen. Taajuusvaste 15 - 25 000 Hz. Suljettu rakenne vähentää taustamelua. Surrounding Sound 7.1 (PC/Mac)', 3, 'hyperx_cloud2.jpeg');
+insert into product (name, price, description, category_id, image) values ('EPOS Sennheiser PC 5 Chat', 19.90, '3.5 liitäntä. Melua vaimentava mikrofoni.', 3, 'epos_sennheiser.jpeg');
+insert into product (name, price, description, category_id, image) values('Logitech G Pro X', 119.90, '50 mm PRO-G-kaiutinelementit. Ammattitason mikrofoni. Erityisesti PC-käyttöön.',3, 'logitech_g_prox.jpeg');
+insert into product (name, price, description, category_id, image) values ('Sony Pulse 3D', 89.90, 'Langattomat pelikuulokkeet. Yhteensopivuus: PS5, PS4 ja PC.', 3, 'sony_pulse3d.jpeg');
+insert into product (name, price, description, category_id, image) values ('Corsair HS70 PRO Wireless', 109.90, 'PS4 / PC. Virtuaalinen 7.1 ääni PC:llä. 16 tunnin akunkesto.', 3, 'corsair_hs70_pro.jpeg');
 
 
-insert into product (name, price, description, category_id) values ('Gembird Gaming Mouse Pad S', 7.99, 'Koko: 200 x 250 x 3 mm. Liukumaton kumipohja.', 4);
-insert into product (name, price, description, category_id) values ('Asus ROG Sheath', 39.99, 'Koko: 900 x 440 x 3 mm. Optimoitu hiiren sulavaan liukumiseen', 4);
-insert into product (name, price, description, category_id) values ('Gembird Gaming Mouse Pad M', 8.99, 'Koko: 250 x 350 x 3 mm. Liukumaton kumipohja.', 4);
-insert into product (name, price, description, category_id) values ('Steelseries QcK', 23.99, 'Koko: 320 x 270 x 2 mm. Pehmeyttä ja tasaisuutta pelaamiseen. Vaativalle pelaajalle.', 4);
-insert into product (name, price, description, category_id) values ('Corsair MM100 Medium', 17.99, 'Koko: 320 x 270 x 3 mm. Kumipohja, kangaspinnoite.', 4);
-insert into product (name, price, description, category_id) values ('Razer Sphex V3 Hard Gaming Mouse Mat', 12.99, 'Koko: 270 x 215 x 0,4 mm. Kaikille herkkyyksille ja sensoreille. Erittäin ohut.', 4);
+insert into product (name, price, description, category_id, image) values ('Gembird Gaming Mouse Pad S', 7.99, 'Koko: 200 x 250 x 3 mm. Liukumaton kumipohja.', 4, 'gembird_gaming_mouse_pad_s.jpeg');
+insert into product (name, price, description, category_id, image) values ('Asus ROG Sheath', 39.99, 'Koko: 900 x 440 x 3 mm. Optimoitu hiiren sulavaan liukumiseen', 4, 'asus_rog_sheath.jpeg');
+insert into product (name, price, description, category_id, image) values ('Gembird Gaming Mouse Pad M', 8.99, 'Koko: 250 x 350 x 3 mm. Liukumaton kumipohja.', 4, 'gembird_gaming_mouse_pad_m.jpeg');
+insert into product (name, price, description, category_id, image) values ('Steelseries QcK', 23.99, 'Koko: 320 x 270 x 2 mm. Pehmeyttä ja tasaisuutta pelaamiseen. Vaativalle pelaajalle.', 4, 'steelseries_qck.jpeg');
+insert into product (name, price, description, category_id, image) values ('Corsair MM100 Medium', 17.99, 'Koko: 320 x 270 x 3 mm. Kumipohja, kangaspinnoite.', 4, 'corsair_mm100_medium.jpeg');
+insert into product (name, price, description, category_id, image) values ('Razer Sphex V3 Hard Gaming Mouse Mat', 12.99, 'Koko: 270 x 215 x 0,4 mm. Kaikille herkkyyksille ja sensoreille. Erittäin ohut.', 4, 'razer_sphex_v3_hard.jpeg');
