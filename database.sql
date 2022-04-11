@@ -31,7 +31,7 @@ insert into category (name) values ('Kuulokkeet');
 insert into category (name) values ('Hiirimatot');
 
 
-insert into product (name, price, old_price, description, category_id, image) values ('Logitech MX518', 29.90, 35.90, '16 000 DPI. Klassinen muotoilu kahdeksalla ohjelmoitavalla painikkeella', 1, 'logitech_mx518.jpeg');
+insert into product (name, price, old_price, description, category_id, image) values ('Logitech MX518', 29.95, 35.95, '16 000 DPI. Klassinen muotoilu kahdeksalla ohjelmoitavalla painikkeella', 1, 'logitech_mx518.jpeg');
 insert into product (name, price, old_price, description, category_id, image) values ('Steelseries Rival 3', 39.90, null, 'Sopii oikeakätisille pelaajille. 16,8 miljoonan värin RGB valaistus. 60 miljoonan klikkauksen kytkimet', 1, 'steelseries_rival3.jpeg');
 insert into product (name, price, old_price, description, category_id, image) values ('Logitech G Pro Wireless', 119.90, null, 'Kevyt ja kestävä pelihiiri. 16 000 DPI. Langaton LIGHTSPEED',1, 'logitech_g_pro.jpeg');
 insert into product (name, price, old_price, description, category_id, image) values ('Logitech G305', 54.90, null, '12 000 DPI. Langaton LIGHTSPEED pelihiiri. Erittäin kevyt.',1, 'logitech_g305.jpeg');
@@ -40,8 +40,8 @@ insert into product (name, price,old_price, description, category_id, image) val
 
 
 insert into product (name, price,old_price, description, category_id, image) values ('Corsair K63 Compacr', 89.90, null, 'Cherry MX -kytkimet. Suunniteltu tehopelaamiseen. Lisää tilaa ilman numeronäppäimistöä.', 2, 'corsair_k63.jpeg');
-insert into product (name, price,old_price, description, category_id, image) values ('Blackstorm RGB Mech 2021 musta', 59.90, null, 'Bluetooth sekä USB yhteys. Yksilöllisesti ohjelmoitava valaistus.', 2, 'blackstorm_rgb_black.jpeg');
-insert into product (name, price,old_price, description, category_id, image) values ('Blackstorm RGB Mech 2021 pinkki', 59.90, 69.90, 'Bluetooth sekä USB yhteys. Yksilöllisesti ohjelmoitava valaistus.', 2, 'blackstorm_rgb_pink.jpeg' );
+insert into product (name, price,old_price, description, category_id, image) values ('Blackstorm RGB Mech 2021 musta', 59.95, null, 'Bluetooth sekä USB yhteys. Yksilöllisesti ohjelmoitava valaistus.', 2, 'blackstorm_rgb_black.jpeg');
+insert into product (name, price,old_price, description, category_id, image) values ('Blackstorm RGB Mech 2021 pinkki', 59.95, 69.95, 'Bluetooth sekä USB yhteys. Yksilöllisesti ohjelmoitava valaistus.', 2, 'blackstorm_rgb_pink.jpeg' );
 insert into product (name, price,old_price, description, category_id, image) values ('Hyper X Alloy Origins 60', 119.90, null, 'Mekaaniset Hyper X Red -kytkimet. Harjattu alumiinirunko. 60 % näppäinasettelu.', 2, 'hyperx_alloy_origins.jpeg');
 insert into product (name, price,old_price, description, category_id, image) values ('Blackstorm RGB 2022 Pudding 60% Dual Mode', 69.90, null, 'Bluetooth 5.0 sekä USB-yhteys. 80 miljoonan painalluksen elinkaari. Pudding Keycaps', 2, 'blackstorm_rgb_pudding.jpeg');
 insert into product (name, price,old_price, description, category_id, image) values ('Corsair K95 Platinum', 179.90, null, 'Cherry Mx Brown -kytkimet. 8 Mt muisti. Anodisoitu, harjattu alumiinipinta', 2, 'corsair_k95.jpeg');
@@ -61,4 +61,4 @@ insert into product (name, price,old_price, description, category_id, image) val
 insert into product (name, price,old_price, description, category_id, image) values ('Gembird Gaming Mouse Pad M', 8.99, null, 'Koko: 250 x 350 x 3 mm. Liukumaton kumipohja.', 4, 'gembird_gaming_mouse_pad_m.jpeg');
 insert into product (name, price,old_price, description, category_id, image) values ('Steelseries QcK', 23.99, null, 'Koko: 320 x 270 x 2 mm. Pehmeyttä ja tasaisuutta pelaamiseen. Vaativalle pelaajalle.', 4, 'steelseries_qck.jpeg');
 insert into product (name, price,old_price, description, category_id, image) values ('Corsair MM100 Medium', 17.99, null, 'Koko: 320 x 270 x 3 mm. Kumipohja, kangaspinnoite.', 4, 'corsair_mm100_medium.jpeg');
-insert into product (name, price, old_price, description, category_id, image) values ('Razer Sphex V3 Hard Gaming Mouse Mat', 12.99, 15.99,'Koko: 270 x 215 x 0,4 mm. Kaikille herkkyyksille ja sensoreille. Erittäin ohut.', 4, 'razer_sphex_v3_hard.jpeg');
+insert into product (name, price, old_price, description, category_id, image) values ('Razer Sphex V3 Hard Gaming Mouse Mat', 12.95, 15.95,'Koko: 270 x 215 x 0,4 mm. Kaikille herkkyyksille ja sensoreille. Erittäin ohut.', 4, 'razer_sphex_v3_hard.jpeg');
