@@ -13,6 +13,7 @@ create table product (
 id int PRIMARY KEY AUTO_INCREMENT,
 name VARCHAR(255) not null,
 price double (10,2) not null,
+old_price double(10,2),
 image VARCHAR(50),
 description VARCHAR(200),
 category_id int not null,
@@ -30,7 +31,7 @@ insert into category (name) values ('Kuulokkeet');
 insert into category (name) values ('Hiirimatot');
 
 
-insert into product (name, price, description, category_id, image) values ('Logitech MX518', 29.90, '16 000 DPI. Klassinen muotoilu kahdeksalla ohjelmoitavalla painikkeella', 1, 'logitech_mx518.jpeg');
+insert into product (name, price, old_price, description, category_id, image) values ('Logitech MX518', 29.90, 35.90, '16 000 DPI. Klassinen muotoilu kahdeksalla ohjelmoitavalla painikkeella', 1, 'logitech_mx518.jpeg');
 insert into product (name, price, description, category_id, image) values ('Steelseries Rival 3', 39.90, 'Sopii oikeakätisille pelaajille. 16,8 miljoonan värin RGB valaistus. 60 miljoonan klikkauksen kytkimet', 1, 'steelseries_rival3.jpeg');
 insert into product (name, price, description, category_id, image) values ('Logitech G Pro Wireless', 119.90, 'Kevyt ja kestävä pelihiiri. 16 000 DPI. Langaton LIGHTSPEED',1, 'logitech_g_pro.jpeg');
 insert into product (name, price, description, category_id, image) values ('Logitech G305', 54.90, '12 000 DPI. Langaton LIGHTSPEED pelihiiri. Erittäin kevyt.',1, 'logitech_g305.jpeg');
