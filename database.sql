@@ -22,6 +22,19 @@ FOREIGN key (category_id) REFERENCES category(id)
 on delete RESTRICT
 );
 
+create table popular_product (
+id int PRIMARY KEY AUTO_INCREMENT,
+name VARCHAR(255) not null,
+price double (10,2) not null,
+old_price double(10,2),
+image VARCHAR(50),
+description VARCHAR(200),
+category_id int not null,
+index category_id (category_id),
+FOREIGN key (category_id) REFERENCES category(id)
+on delete RESTRICT
+);
+
 insert into category (name) values ('Hiiret');
 
 insert into category (name) values ('Näppäimistöt');
@@ -62,3 +75,7 @@ insert into product (name, price,old_price, description, category_id, image) val
 insert into product (name, price,old_price, description, category_id, image) values ('Steelseries QcK', 23.99, null, 'Koko: 320 x 270 x 2 mm. Pehmeyttä ja tasaisuutta pelaamiseen. Vaativalle pelaajalle.', 4, 'steelseries_qck.jpeg');
 insert into product (name, price,old_price, description, category_id, image) values ('Corsair MM100 Medium', 17.99, null, 'Koko: 320 x 270 x 3 mm. Kumipohja, kangaspinnoite.', 4, 'corsair_mm100_medium.jpeg');
 insert into product (name, price, old_price, description, category_id, image) values ('Razer Sphex V3 Hard Gaming Mouse Mat', 12.95, 15.95,'Koko: 270 x 215 x 0,4 mm. Kaikille herkkyyksille ja sensoreille. Erittäin ohut.', 4, 'razer_sphex_v3_hard.jpeg');
+
+insert into popular_product (name, price,old_price, description, category_id, image) values ('Sony Pulse 3D', 89.90, null, 'Langattomat pelikuulokkeet. Yhteensopivuus: PS5, PS4 ja PC.', 3, 'sony_pulse3d.jpeg');
+insert into popular_product (name, price, old_price, description, category_id, image) values ('Logitech MX518', 29.95, 35.95, '16 000 DPI. Klassinen muotoilu kahdeksalla ohjelmoitavalla painikkeella', 1, 'logitech_mx518.jpeg');
+insert into popular_product (name, price,old_price, description, category_id, image) values ('EPOS Sennheiser PC 5 Chat', 19.90, null, '3.5 liitäntä. Melua vaimentava mikrofoni.', 3, 'epos_sennheiser.jpeg');
