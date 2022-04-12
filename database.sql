@@ -35,14 +35,15 @@ FOREIGN key (category_id) REFERENCES category(id)
 on delete RESTRICT
 );
 
-CREATE table customer (     id int PRIMARY KEY AUTO_INCREMENT, 
-firstname VARCHAR(50) not null,     lastname VARCHAR(50) not null
+CREATE table customer (id int PRIMARY KEY AUTO_INCREMENT, 
+firstname VARCHAR(50) not null,
+lastname VARCHAR(50) not null,
 address VARCHAR(50) not null,
 zip VARCHAR(10) not null,
 city VARCHAR(30) not null
 );
 
-CREATE table order (id int PRIMARY KEY AUTO_INCREMENT,
+CREATE table `order` (id int PRIMARY KEY AUTO_INCREMENT,
 order_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
 customer_id int not null,
 index customer_id(customer_id),
@@ -51,7 +52,7 @@ FOREIGN KEY (customer_id) REFERENCES customer(id) on delete RESTRICT
 
 CREATE table order_row (order_id int not null,
 index order_id(order_id),
-FOREIGN KEY (order_id) REFERENCES order(id) on delete RESTRICT product_id int not null,
+FOREIGN KEY (order_id) REFERENCES `order`(id) on delete RESTRICT, product_id int not null,
 index product_id(product_id),
 FOREIGN KEY (product_id) REFERENCES product(id) on delete RESTRICT 
 );
