@@ -68,7 +68,7 @@ insert into category (name) values ('Hiirimatot');
 
 insert into product (name, price, old_price, description, category_id, image) values ('Logitech MX518', 29.95, 35.95, '16 000 DPI. Klassinen muotoilu kahdeksalla ohjelmoitavalla painikkeella', 1, 'logitech_mx518.jpeg');
 insert into product (name, price, old_price, description, category_id, image) values ('Steelseries Rival 3', 39.90, null, 'Sopii oikeakätisille pelaajille. 16,8 miljoonan värin RGB valaistus. 60 miljoonan klikkauksen kytkimet', 1, 'steelseries_rival3.jpeg');
-insert into product (name, price, old_price, description, category_id, image) values ('Logitech G Pro Wireless', 119.95, 149.95, 'Kevyt ja kestävä pelihiiri. 16 000 DPI. Langaton LIGHTSPEED',1, 'logitech_g_pro.jpeg');
+insert into product (name, price, old_price, description, category_id, image) values ('Logitech G Pro Wireless', 119.95, 149.95, 'Kevyt ja kestävä pelihiiri. 16 000 DPI. Langaton LIGHTSPEED',1, 'Logitech_g_pro_wireless.jpeg');
 insert into product (name, price, old_price, description, category_id, image) values ('Logitech G305', 54.90, null, '12 000 DPI. Langaton LIGHTSPEED pelihiiri. Erittäin kevyt.',1, 'logitech_g305.jpeg');
 insert into product (name, price,old_price, description, category_id, image) values ('Razer Basilisk Ultimate + lataustelakka', 189.90, null, 'Pitkä akunkesto, mukana lataustelakka. Jopa 20 000 DPI! Razer HyperSpeed -langaton teknologia',1, 'razer_basilisk_ultimate.jpeg');
 insert into product (name, price,old_price, description, category_id, image) values ('Hyper X Pulsefire', 59.90, null, 'RGB efektit. Suurikokoiset rullat. Yksitoista painiketta, Omron-kytkimet', 1, 'hyperx_pulsefire.jpeg');
